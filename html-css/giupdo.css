@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+.contaner{
+  width: 100%;
+  height: 10vh;
+  background-position: center;
+
+
+}
+.contaner nav{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-left:5% ;
+  padding-right: 5%;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 7);
+  background-color:black;
+}
+.contaner nav .logo img{
+  width: 70px;
+  margin-top: 12px;
+  padding-bottom:6px;
+  cursor: pointer;
+  border: 3px solid green;
+  border-radius: 10px;
+}
+.contaner nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin:30px 43px ;
+
+}
+.contaner nav ul li a{
+  text-decoration: none;
+  color: green;
+  font-size: 19px;
+  font-weight: bold;
+  transition: 0.3s;
+
+}
+.contaner nav ul li a:hover{
+  
+  color:aqua;
+  background-color:rgba(0, 0, 0, 0.203);
+
+}
+.contaner nav .btn a{
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  border: 2px solid green;
+  border-radius: 30px;
+  padding: 10px 23px;
+  box-shadow: 0 0 20px green;
+  transition: 0.3s;
+}
+.contaner nav .btn a:hover{
+  background:#ffcc00;
+  color: black;
+ 
+}
+
+.main{
+  padding: 110px;
+  background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=2000);
+
+ 
+}
+
+  .main h1{
+    
+    text-align: center;
+    padding: 0px;
+    font-size:25px  ;
+    color:rgba(0, 0, 0, 0.571);
+    margin-bottom: 50px;
+  }
+
+  
+  .main form {
+    width: 800px;
+    margin: 0 auto;
+    padding:60px 80px;
+    border: 10px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .main input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .main button[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border: solid black;
+    border-radius: 100px ;
+    margin-top: 20px;
+    margin-left: 235px;
+    
+    
+  }
+  
+  .main button[type=submit]:hover {
+    background-color:gray;
+  }
+
+
+
+
+  .end_page{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(0, 0, 0, 0.841);
+    display: flex;
+ 
+
+}
+.end_page .left{
+    padding-left: 30px;
+}
+.end_page .left h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-top: 5px;
+    padding: 30px;
+    
+}
+.end_page .left p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 10px;
+    
+}
+.end_page .download_app{
+    display: flex;
+    cursor: pointer;
+    margin-left: 146px;
+  
+}
+.end_page .left .download_app img{
+    width: 180px;
+    margin: 20px 10px;
+    
+}
+
+.end_page .left .download_app img:hover{
+    box-shadow: 0 0 10px rgba(228,226,226);
+}
+.end_page.right{
+   box-sizing: border-box;
+   display: flex;
+   
+}
+.end_page .right img {
+    padding-top: 25px;
+    padding-left:200px;
+    width: 350px;
+    margin-left: 150px;
+    
+}
+.right p{
+    margin-left: 330px;
+    margin-top: 20px;
+    color: white;
+   
+}

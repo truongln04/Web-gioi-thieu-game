@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.contaner{
+    width: 100%;
+    background-position: center;
+   
+}
+.contaner nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left:5% ;
+    padding-right: 5%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 7);
+    background-color:black;
+}
+.contaner nav .logo img{
+    width: 70px;
+    margin-top: 12px;
+    padding-bottom:6px;
+    cursor: pointer;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+.contaner nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin:30px 43px ;
+
+}
+.contaner nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+  
+}
+.contaner nav ul li a:hover{
+    
+    color:aqua;
+    background-color:rgba(0, 0, 0, 0.203);
+
+}
+.contaner nav .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border: 2px solid green;
+    border-radius: 30px;
+    padding: 10px 23px;
+    box-shadow: 0 0 20px green;
+    transition: 0.3s;
+}
+.contaner nav .btn a:hover{
+    background:#ffcc00;
+    color: black;
+   
+}
+.header{
+    padding: 100px;
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/en-us/images/2018/02/ea-hero-medium-pvz2-news-7x2-xl.png.adapt.crop7x2.1920w.png);
+}
+
+.content .header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-size: 50px;
+  
+}
+.header p{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    color: white;
+    font-size: 35px;
+   
+}
+   
+.fankit{
+    text-align: center;
+    font-size:20px;
+    padding: 40px;
+    margin:10px 10px;
+}
+.tag{
+   column-count: 2;
+    column-gap: 10px;
+    text-align: center;
+    
+}
+.tag p{
+    font-size: 20px;
+    padding: 40px;
+
+}
+.tag p:hover {
+    color: #ffea00;
+   
+
+}
+
+.end_page{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(0, 0, 0, 0.841);
+    display: flex;
+ 
+
+}
+.end_page .left{
+    padding-left: 30px;
+}
+.end_page .left h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-top: 5px;
+    padding: 30px;
+    
+}
+.end_page .left p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 10px;
+    
+}
+.end_page .download_app{
+    display: flex;
+    cursor: pointer;
+    margin-left: 146px;
+  
+}
+.end_page .left .download_app img{
+    width: 180px;
+    margin: 20px 10px;
+    
+}
+
+.end_page .left .download_app img:hover{
+    box-shadow: 0 0 10px rgba(228,226,226);
+}
+.end_page.right{
+   box-sizing: border-box;
+   display: flex;
+   
+}
+.end_page .right img {
+    padding-top: 25px;
+    padding-left:200px;
+    width: 350px;
+    margin-left: 150px;
+    
+}
+.right p{
+    margin-left: 330px;
+    margin-top: 20px;
+    color: white;
+   
+}
